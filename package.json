@@ -37,5 +37,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+
+  {
+    "homepage": "https://github.com/caineosborne/child-support-calculator",
+    "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+    }
   }
 }
