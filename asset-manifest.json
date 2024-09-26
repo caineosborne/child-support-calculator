@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/caineosborne/child-support-calculator/static/css/main.e6c13ad2.css",
-    "main.js": "/caineosborne/child-support-calculator/static/js/main.ad35957a.js",
-    "static/js/453.11753795.chunk.js": "/caineosborne/child-support-calculator/static/js/453.11753795.chunk.js",
-    "index.html": "/caineosborne/child-support-calculator/index.html",
-    "main.e6c13ad2.css.map": "/caineosborne/child-support-calculator/static/css/main.e6c13ad2.css.map",
-    "main.ad35957a.js.map": "/caineosborne/child-support-calculator/static/js/main.ad35957a.js.map",
-    "453.11753795.chunk.js.map": "/caineosborne/child-support-calculator/static/js/453.11753795.chunk.js.map"
+    "main.css": "/child-support-calculator/static/css/main.e6c13ad2.css",
+    "main.js": "/child-support-calculator/static/js/main.7fbbfacd.js",
+    "static/js/453.11753795.chunk.js": "/child-support-calculator/static/js/453.11753795.chunk.js",
+    "index.html": "/child-support-calculator/index.html",
+    "main.e6c13ad2.css.map": "/child-support-calculator/static/css/main.e6c13ad2.css.map",
+    "main.7fbbfacd.js.map": "/child-support-calculator/static/js/main.7fbbfacd.js.map",
+    "453.11753795.chunk.js.map": "/child-support-calculator/static/js/453.11753795.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ad35957a.js"
+    "static/js/main.7fbbfacd.js"
   ]
 }
