@@ -2,6 +2,7 @@
   "name": "child-support-calculator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/caineosborne/child-support-calculator",
   "dependencies": {
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slider": "^1.2.0",
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,13 +43,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  }
-
-  {
-    "homepage": "https://github.com/caineosborne/child-support-calculator",
-    "scripts": {
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d build"
-    }
   }
 }
