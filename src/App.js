@@ -55,6 +55,7 @@ const ChildSupportCalculator = () => {
       setParent(prev => ({ ...prev, applicableIncome, calculation }));
     };
 
+
     updateParent(parent1, setParent1);
     updateParent(parent2, setParent2);
 
@@ -102,7 +103,7 @@ const ChildSupportCalculator = () => {
       fortnightlyAmount,
       monthlyAmount
     });
-  }, [parent1, parent2, childOver13, custodyPercentage]);
+  }, [parent1, parent2, childOver13, custodyPercentage, calculateApplicableIncome]);
 
   const updateParent = (parentNumber, field, value) => {
     const setParent = parentNumber === 1 ? setParent1 : setParent2;
